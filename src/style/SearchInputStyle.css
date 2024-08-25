@@ -1,0 +1,51 @@
+.search_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin-top: 1.5rem;
+}
+
+.search_input .input_wrapper {
+    background-color: rgba(255, 255, 255, .090);
+    /* opacity: 0.4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+}
+
+.search_input .input_wrapper svg {
+    padding: 0.5rem;
+    color: white;
+}
+
+.search_input .input_wrapper input {
+    outline: none;
+    border: none;
+    font-size: large;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: white;
+}
+
+.search_input .input_wrapper input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.unit_converter select{
+    outline: none;
+    border: none;
+    padding: 0.2rem 0.4rem; 
+    background-color: rgba(255, 255, 255, .090);
+    color: white;
+    font-size: large;
+    border-radius: 0.4rem;
+    margin-left: 0.5rem;
+}
+
+.unit_converter select option{
+    background-color: rgba(255, 255, 255, .090);
+    color: black;
+}

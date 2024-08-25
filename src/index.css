@@ -1,0 +1,49 @@
+@import url(./style/SearchInputStyle.css);
+@import url(./style/WeatherCardStyle.css);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* soft peach
+  background: linear-gradient(to right, #ffd7be, #ffb6c1);
+
+  /* minty fresh */
+  background: linear-gradient(to right, #b2fffc, #8af6e6);
+
+  /* sunset */
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+
+  /* deep sea */
+  background: linear-gradient(to right, #3498db, #2ecc71);
+
+  /* lavendre dream */
+  background: linear-gradient(to right, #c7b8ea, #a5c9ca);
+
+
+  /* sunny */
+  /* background: linear-gradient(to right, #f2c464, #ffd700); */
+  /* Cloudy */
+  /* background: linear-gradient(to right, #ececec, #c9c9c9); */
+  /* rainy */
+  /* background: linear-gradient(to right, #6495ed, #456778); */
+  /* Snowy */
+  /* background: linear-gradient(to right, #f2f2f2, #c9c9c9); */
+  /* Thunderstorm */
+  /* background: linear-gradient(to right, #555555, #333333); */
+  /* foggy */
+  /* background: linear-gradient(to right, #969696, #636363); */
+  /* Windy */
+  /* background: linear-gradient(to right, #87ceeb, #4682b4); */
+  /* Clear Night */
+  background: linear-gradient(to right, #2f4f7f, #1a1d23);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
