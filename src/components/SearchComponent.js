@@ -1,5 +1,5 @@
 import { SearchIcon } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import {
   changeUnit,
@@ -7,7 +7,7 @@ import {
 } from "../redux/action/WeatherApiAction";
 
 const SearchComponent = () => {
-  const [searchInput, setSearchInput] = useState('');
+  const [searchInput, setSearchInput] = useState("");
   const dispatch = useDispatch();
 
   const handleSearch = (event) => {
@@ -28,7 +28,12 @@ const SearchComponent = () => {
           }}
           value={searchInput}
         />
-        <SearchIcon />
+        <button
+          onClick={() => dispatch(GetWeatherDetailsByCity(searchInput))}
+          className="search_button"
+        >
+          <SearchIcon />
+        </button>
       </div>
       <div className="unit_converter">
         <select onChange={(e) => dispatch(changeUnit(e.target.value))}>
